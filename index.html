@@ -39,7 +39,7 @@ const result = document.getElementById('result')
 
 navigator.mediaDevices.getUserMedia({ video: {
 	facingMode: "environment"
-}).then(stream => {
+}}).then(stream => {
   player.srcObject = stream
 })
 
